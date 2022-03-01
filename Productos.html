@@ -1,0 +1,1866 @@
+<!DOCTYPE html>
+<!-- Created by CodingLab |www.youtube.com/CodingLabYT-->
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width">
+  <!--<title> Responsive Sidebar Menu  | CodingLab </title>-->
+  <link rel="stylesheet" href="Estilos/mat.css">
+  <link rel="stylesheet" href="Estilos/style.css">
+  <title>Productos</title>
+  <link rel="shortcut icon" href="Media/LOGOAL.ico" />
+  <script src="JavaScript/bar.js"></script>
+  <!-- Boxicons CDN Link -->
+  <link rel="stylesheet" href="Estilos/mi-slider.css">
+  <link rel="stylesheet" href="Estilos/Modal.css">
+  <!-- Boxicons CDN Link -->
+  <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+  <script src="JavaScript/jquery-3.1.1.min.js"></script>
+  <script src="JavaScript/jquery.nivo.slider.js"></script>
+  <script src="JavaScript/Modal.js"></script>
+  <script type="text/javascript">
+    $(window).on('load', function () {
+      $('#slider').nivoSlider();
+    });
+  </script>
+</head>
+
+<body>
+  <div id="ctl" class="contenedor_loader">
+    <div class="loader">
+      <div class="item item-1"></div>
+      <div class="item item-2"></div>
+      <div class="item item-3"></div>
+      <div class="item item-4"></div>
+    </div>
+  </div>  
+  <nav>
+    <div class="logo">
+      <font style="color:#2ca84c;">FUNGI</font><font style="color:#844c3c;">TERRA</font>
+    </div>
+    <label for="btn" class="icon">
+      <span class="fa fa-bars"></span>
+    </label>
+    <input type="checkbox" id="btn">
+    <div class="ull">
+      <div class="lii"><a href="index.html">Inicio</a></div>
+      <div class="lii">
+        <label for="btn-1" class="MOSTRAR">Productos ></label>
+        <a href="Productos.html">Productos</a>
+        <input type="checkbox" id="btn-1">
+        <div class="ull">
+          <div class="lii"><a href="Productos.html">Productos</a></div>
+          <div class="lii"><a href="Granel.html">Productos a Granel</a></div>
+        </div>
+      </div>
+      <div class="lii">
+        <label for="btn-2" class="MOSTRAR">Servicios ></label>
+        <a href="Servicios.html">Servicios</a>
+        <input type="checkbox" id="btn-2">
+        <div class="ull">
+          <div class="lii"><a href="Servicios.html">Servicios</a></div>
+          <div class="lii"><a href="Oferta.html">Oferta Laboral y Colaboración</a></div>
+        </div>
+      </div>
+      <div class="lii"><a href="FungiWiki.html">FungiWiki</a></div>
+      <div class="lii"><a href="Novedades.html">Novedades</a></div>
+      <div class="lii"><a href="Ubicacion.html">Ubicación</a></div>
+      <div class="lii"><a id="openDIR">Directorio</a></div>
+      <div class="lii"><a class="cta" href="Contacto.html" style="color:white;">Contáctanos</a></div>
+    </div>
+  </nav>
+  <!----Presentación------>
+  <div class="container">
+    <div class="slider-wrapper theme-mi-slider">
+      <div id="sliderM" class="nivoSlider">
+        <img src="Media/PB2M.jpg" alt="" title="#htmlcaption1M" />
+        <img src="Media/PB4M.jpg" alt="" title="#htmlcaption2M" />
+        <img src="Media/PB1M.jpg" alt="" title="#htmlcaption3M" />
+      </div>
+      <div id="htmlcaption1M" class="nivo-html-caption">
+        <h1 style="color:WHITE">Productos Gourmet</h1>
+        <p style="color:WHITE">Conoce la variedad de productos Gourmet que ofrecemos de la mejor calidad.</p>
+      </div>
+      <div id="htmlcaption2M" class="nivo-html-caption">
+        <h1 style="color:WHITE">Productos Funcionales</h1>
+        <p style="color:WHITE">Encuentra los productos que pueden beneficiarte en diversas formas.</p>
+      </div>
+      <div id="htmlcaption3M" class="nivo-html-caption">
+        <h1 style="color:WHITE">Productos para la piel</h1>
+        <p style="color:WHITE">Encuentra los mejores productos para cuidar tu piel</p>
+      </div>
+    </div>
+  </div>
+  <script type="text/javascript">
+      $(window).on('load', function () {
+        $('#sliderM').nivoSlider();
+      });
+    </script>
+
+  <div class="ocultar">
+  <div class="slider-wrapper theme-mi-slider">
+    <div id="slider" class="nivoSlider">
+      <img src="Media/PB2.jpg" alt="" title="#htmlcaption1" />
+      <img src="Media/PB4.jpg" alt="" title="#htmlcaption2" />
+      <img src="Media/PB1.jpg" alt="" title="#htmlcaption3" />
+    </div>
+    <div id="htmlcaption1" class="nivo-html-caption">
+      <h1 style="color:WHITE">Productos Gourmet</h1>
+      <p style="color:WHITE">Conoce la variedad de productos Gourmet que ofrecemos de la mejor calidad.</p>
+    </div>
+    <div id="htmlcaption2" class="nivo-html-caption">
+      <h1 style="color:WHITE">Productos Funcionales</h1>
+      <p style="color:WHITE">Encuentra los productos que pueden beneficiarte en diversas formas.</p>
+    </div>
+    <div id="htmlcaption3" class="nivo-html-caption">
+      <h1 style="color:WHITE">Productos para la piel</h1>
+      <p style="color:WHITE">Encuentra los mejores productos para cuidar tu piel</p>
+    </div>
+  </div>
+</div>
+
+  <!-------------->
+  <div class="text">
+    <h1 align="center">Productos que ofrecemos</h1>
+    <div style="margin-left:10%; margin-right:10%; margin-top:3%; margin-bottom: 3%; text-align: justify">
+      <p>Conoce todos los productos que te ofrecemos, realizados con la mejor calidad con un proceso 100% natural para
+        que tu como cliente estes satisfecho con la adquisición que realices.
+        Elige entre las 3 categorías de productos que te ofrecemos, si quieres mas información de alguno, da clic sobre
+        el y se desplegarán detalles de este mismo.</p>
+    </div>
+    <div class="separador" style="background-image: url('Media/Banner/16.jpg'); color:black;">
+      <h1 style=" color:black;" id="productos_gourmet"> Productos Gourmet</h1>
+    </div>
+    <div class="Productos">
+      <div class="divisor"
+        style="background-image: url('Media/Banner/1.jpg'); 	background-position: center; background-size: cover;">
+        <div class="contenedor2">
+          <a id="openFS">
+            <div class="tarjetasU">
+              <img src="Media/Productos/PG-FS.jpg">
+              <h2>Fungi Sopa</h2><br />
+            </div>
+          </a>
+          <a id="openCG">
+            <div class="tarjetasU">
+              <img src="Media/Productos/PG-CG.jpg">
+              <h2> Café con Ganoderma</h2>
+              <br />
+            </div>
+          </a>
+          <a id="openRC">
+            <div class="tarjetasU">
+              <img src="Media/Productos/PG-RS.jpg">
+              <h2> REISHIChaí</h2>
+            </div>
+          </a>
+          <a id="openDES">
+            <div class="tarjetasU">
+              <img src="Media/Productos/DES.jpg">
+              <h2>Selección De Hongos Deshidratados </h2>
+            </div>
+          </a>
+          <a id="openHE">
+            <div class="tarjetasU">
+              <img src="Media/Productos/PG-ESC.jpg">
+              <h2> Hongo de Escabeche</h2>
+            </div>
+          </a>
+          <a id="openSAL">
+            <div class="tarjetasU">
+              <img src="Media/Productos/SAL.jpg">
+              <h2> Salsa Macha con Sal de Shiitake</h2>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="separador" style="background-image: url('Media/Banner/16.jpg'); color:black;">
+      <h1 style=" color:black;" id="productos_funcionales">Productos Funcionales</h1>
+    </div>
+    <div class="Productos">
+      <div class="divisor"
+        style="background-image: url('Media/Banner/5.jpg'); 	background-position: center; background-size: cover;">
+        <div class="contenedor2">
+          <a id="openCML">
+            <div class="tarjetasU">
+              <img src="Media/Productos/PF-CML.jpg">
+              <h2> Cápsulas de Melena<br /> de León </h2>
+            </div>
+          </a>
+          <a id="openEGL">
+            <div class="tarjetasU">
+              <img src="Media/Productos/PF-EGL.jpg">
+              <h2>Extracto de Ganoderma Lucidum</h2>
+              <br />
+
+            </div>
+          </a>
+          <a id="openES">
+            <div class="tarjetasU">
+              <img src="Media/Productos/PF-EST.jpg">
+              <h2>Extracto Shitake </h2>
+            </div>
+          </a>
+          <a id="openEML">
+            <div class="tarjetasU">
+              <img src="Media/Productos/PF-EML.jpg">
+              <h2>Extracto Melena de León </h2>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="separador" style="background-image: url('Media/Banner/16.jpg');">
+      <h1 style=" color:black;" id="productos_para_la_piel">Productos para el cuidado de la Piel</h1>
+    </div>
+    <div class="Productos">
+      <div class="divisor"
+        style="background-image: url('Media/Banner/4.jpg'); background-position: center; background-size: cover;">
+        <div class="contenedor2">
+          </a>
+          <a id="openPGS">
+            <div class="tarjetasU">
+              <img src="Media/Productos/PP-PGS.jpg">
+              <h2> Pomada Ganoderma<br />y Shitake</h2>
+            </div>
+          </a>
+          <a id="openJGL">
+            <div class="tarjetasU">
+              <img src="Media/Productos/PP-JGL.jpg">
+              <h2>Jabón de Ganoderma Lucidum</h2>
+              <br />
+            </div>
+          </a>
+          <a id="openCRF">
+            <div class="tarjetasU">
+              <img src="Media/Productos/CRF.jpg">
+              <h2>Crema Facial Hidratante</h2>
+              <br />
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+    <br />
+  </div>
+
+  <!---------- Venatnas Modales Seccion Productos Gourmet--------------->
+  <div id="Fungi" class="modal-contenedor" role="dialog">
+    <div class="modal" id="mod-f"
+      style=" background-image: url('Media/FONDO.jpeg'); 	background-position: center; background-size: cover;">
+      <hr>
+      </hr>
+      <h1>FungiSopa</h1>
+      <hr>
+      </hr>
+      <div class="cont">
+        <div class="tarjetasU">
+          <ul class="slider">
+            <li id="slide1">
+              <img src="Media/Productos/FungiSopa/3.jpg" />
+            </li>
+            <li id="slide2">
+              <img src="Media/Productos/FungiSopa/2.jpg" />
+            </li>
+            <li id="slide3">
+              <img src="Media/Productos/FungiSopa/1.jpg" />
+            </li>
+          </ul>
+          </br>
+          <ul class="menu">
+            <li>
+              <a href="#slide1"><img src="Media/Productos/FungiSopa/3.jpg" /></a>
+            </li>
+            <li>
+              <a href="#slide2"><img src="Media/Productos/FungiSopa/2.jpg" /></a>
+            </li>
+            <li>
+              <a href="#slide3"><img src="Media/Productos/FungiSopa/1.jpg" /></a>
+            </li>
+          </ul>
+        </div>
+        <div class="tarjetasU" style="box-shadow: 0 2px 2px rgba(0,0,0.2,0.2);">
+          <div class="texto">
+            <h2 align="center">Detalles</h2>
+            <p align="justify">Sopa instantánea con 6 variedades distintas de hongos, fórmula vegana, empaque 100%
+              composteable.</p></br>
+            <p align="justify">Tipos de hongos que contiene:</p>
+            <ul align="left">
+              <li>Eryngii: Anti-Inflamatorio.</li>
+              <li>Shiitake: Reduce los niveles de colesterol. </li>
+              <li>Champiñón: Fuente de B12.</li>
+              <li>Enoki: Anti Cancerígeno.</li>
+            </ul>
+            <br />
+            <p align="left"> <b>Categoría:</b> Producto Gourmet. </p>
+            <p align="left"> <b>Estado:</b> Disponible</p>
+            </br>
+            <a class="botonc contactar"
+              style="background-color: #2d7032 ; border: 0; border-radius: 5px; box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); color: #fff; font-size: 14px; padding: 10px 25px;"
+              align="Right">Contactar</a>
+            <a target="_blank"
+              href="https://fungiterra.mercadoshops.com.mx/MLM-1343433305-fungisopa-instantanea-_JM#position=9&search_layout=stack&type=item&tracking_id=ad8d0f05-b5d9-4172-b583-0bfb4255f9d0"
+              style="background-color: #118DA4 ; border: 0; border-radius: 5px; box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); color: #fff; font-size: 14px; padding: 10px 25px;"
+              align="Right">Comprar paquete (12 pz)</a>
+          </div>
+        </div>
+      </div>
+      <button id="close">Cerrar</button>
+      </br>
+    </div>
+  </div>
+  <script>
+    ventModal(document.getElementById('openFS'), document.getElementById('Fungi'), document.getElementById('close'),
+      document.getElementById('mod-f'));
+  </script>
+  <!------>
+  <div id="CG" class="modal-contenedor">
+    <div class="modal" id="mod-CG"
+      style=" background-image: url('Media/FONDO.jpeg'); 	background-position: center; background-size: cover;">
+      <hr>
+      </hr>
+      <h1>Café de Ganoderma</h1>
+      <hr>
+      </hr>
+      <div class="cont">
+        <div class="tarjetasU">
+          <ul class="slider">
+            <li id="slide1CG">
+              <img src="Media/Productos/CafeGanoderma/1.jpg" />
+            </li>
+            <li id="slide2CG">
+              <img src="Media/Productos/CafeGanoderma/2.jpg" />
+            </li>
+            <li id="slide3CG">
+              <img src="Media/Productos/CafeGanoderma/3.jpg" />
+            </li>
+          </ul>
+          </br>
+          <ul class="menu">
+            <li>
+              <a href="#slide1CG"><img src="Media/Productos/CafeGanoderma/1.jpg" /></a>
+            </li>
+            <li>
+              <a href="#slide2CG"><img src="Media/Productos/CafeGanoderma/2.jpg" /></a>
+            </li>
+            <li>
+              <a href="#slide3CG"><img src="Media/Productos/CafeGanoderma/3.jpg" /></a>
+            </li>
+          </ul>
+        </div>
+        <div class="tarjetasU" style="box-shadow: 0 2px 2px rgba(0,0,0.2,0.2);">
+          <div class="texto">
+            <h2 align="center">Detalles</h2>
+            <p align="justify">
+              Café de Altura Orgánico de Oaxaca, molido fino con concentrado de Ganoderma Sp, dependiendo de tu gusto
+              puede rendir de 8 hasta 20 tazas.
+              Uno de los alimentos vegetales más ricos en compuestos antioxidantes como los ácidos clorogénicos, los
+              polifenoles y las melanoidinas, combinados con las biomoleculas activas del Ganoderma Sp, el cual es
+              considerado como un superfood.
+            </p>
+            <p align="left"> <b>Categoría:</b> Producto Gourmet. </p>
+            <p align="left"> <b>Estado:</b> Disponible</p>
+            </br>
+            <a class="botonc contactar"
+              style="background-color: #2d7032 ; border: 0; border-radius: 5px; box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); color: #fff; font-size: 14px; padding: 10px 25px;"
+              align="Right">Contactar</a>
+            <a id="openComCG"
+              style="background-color: #118DA4 ; border: 0; border-radius: 5px; box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); color: #fff; font-size: 14px; padding: 10px 25px;">
+              Comprar</a> <br>
+          </div>
+        </div>
+      </div>
+      <button id="closeCG">Cerrar</button>
+    </div>
+  </div>
+  <script>
+    ventModal(document.getElementById('openCG'), document.getElementById('CG'), document.getElementById('closeCG'),
+      document.getElementById('mod-CG'));
+  </script>
+
+  <div id="compCG" class="modal-contenedor" style="background-color: rgba(0, 0, 0,0.7);">
+    <div class="modal4" id="mod-comCG">
+      <hr>
+      </hr>
+      <h1>Comprar producto</h1>
+      <hr>
+      </hr>
+      <div class="divisor">
+        <div class="row">
+          <div class="col s12">
+            <div class="carousel center-align">
+              <div class="carousel-item">
+                <div class="contenedor2">
+                  <a target="_blank"
+                    href="https://fungiterra.mercadoshops.com.mx/MLM-1333872923-reishi-cafe-cafe-molido-fino-con-ganoderma-molido-organico-_JM#position=6&search_layout=stack&type=item&tracking_id=384ae1bb-9e0b-4f3c-8c83-f3b2c2d2f2c7">
+                    <div class="tarjetasU">
+                      <img src="Media/Productos/CafeGanoderma/1C.jpg">
+                      <h3>Comprar unidad</h3>
+                    </div>
+                  </a>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="contenedor2">
+                  <a target="_blank"
+                    href="https://fungiterra.mercadoshops.com.mx/MLM-1341631063-reishi-cafe-con-ganoderma-caja-12-sobres-de-250g-_JM#position=7&search_layout=stack&type=item&tracking_id=d78acc47-d590-4d90-bae6-e29e941d5ec6">
+                    <div class="tarjetasU">
+                      <img src="Media/Productos/CafeGanoderma/2C.jpg">
+                      <h3> Comprar caja (12pz)</h3>
+                    </div>
+                  </a>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="contenedor2">
+                  <a target="_blank"
+                    href="https://fungiterra.mercadoshops.com.mx/MLM-1366931213-paquete-reishi-chai-10s-y-reishi-cafe-250-_JM#position=24&search_layout=stack&type=item&tracking_id=c0332d06-d148-4cee-84c8-35198788edc1">
+                    <div class="tarjetasU">
+                      <img src="Media/Productos/CafeGanoderma/3C.jpg">
+                      <h3>Comprar paquete (Café y 10s de Té REISHIchai)</h3>
+                    </div>
+                  </a>
+                </div>
+              </div>
+
+              <div class="carousel-item">
+                <div class="contenedor2">
+                  <a target="_blank"
+                    href="https://fungiterra.mercadoshops.com.mx/MLM-1367020824-paquete-reishi-chai-25s-y-reishi-cafe-250-_JM#position=26&search_layout=stack&type=item&tracking_id=b6784c89-279f-448b-8b9e-9ce9b2e23cca">
+                    <div class="tarjetasU">
+                      <img src="Media/Productos/CafeGanoderma/4C.jpg">
+                      <h3>Comprar paquete (Café y 25s de Té REISHIchai)</h3>
+                    </div>
+                  </a>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <button id="closeComCG">Cerrar</button>
+    </div>
+  </div>
+  <script>
+    ventModal4(document.getElementById('openComCG'), document.getElementById('compCG'), document.getElementById(
+      'closeComCG'), document.getElementById('mod-comCG'));
+  </script>
+
+  <!------>
+  <div id="RC" class="modal-contenedor">
+    <div class="modal" id="mod-RC"
+      style=" background-image: url('Media/FONDO.jpeg'); 	background-position: center; background-size: cover;">
+      <hr>
+      </hr>
+      <h1>REISHIChaí</h1>
+      <hr>
+      </hr>
+      <div class="cont">
+        <div class="tarjetasU">
+          <ul class="slider">
+            <li id="slide1RC">
+              <img src="Media/Productos/RCHAI/1.jpg" />
+            </li>
+            <li id="slide2RC">
+              <img src="Media/Productos/RCHAI/2.jpg" />
+            </li>
+            <li id="slide3RC">
+              <img src="Media/Productos/RCHAI/3.jpg" />
+            </li>
+          </ul>
+          </br>
+          <ul class="menu">
+            <li>
+              <a href="#slide1RC"><img src="Media/Productos/RCHAI/1.jpg" /></a>
+            </li>
+            <li>
+              <a href="#slide2RC"><img src="Media/Productos/RCHAI/2.jpg" /></a>
+            </li>
+            <li>
+              <a href="#slide3RC"><img src="Media/Productos/RCHAI/3.jpg" /></a>
+            </li>
+          </ul>
+        </div>
+        <div class="tarjetasU" style="box-shadow: 0 2px 2px rgba(0,0,0.2,0.2);">
+          <div class="texto">
+            <h2 align="center">Detalles</h2>
+            <p align="justify">Paquete de 25 sobres y 10 sobres Chai elaborado con 15% de concentrado de Ganoderma
+              lucidum, posee efectos relajantes y estimulantes del sistema digestivo, circulatorio e inmunológico.</p>
+            </br>
+            <br />
+            <p align="left"> <b>Categoría:</b> Producto Gourmet. </p>
+            <p align="left"> <b>Estado:</b> Disponible</p>
+            </br>
+            <a class="botonc contactar"
+              style="background-color: #2d7032 ; border: 0; border-radius: 5px; box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); color: #fff; font-size: 14px; padding: 10px 25px;"
+              align="Right">Contactar</a>
+            <a id="openComRC"
+              style="background-color: #118DA4 ; border: 0; border-radius: 5px; box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); color: #fff; font-size: 14px; padding: 10px 25px;"
+              align="Right">Comprar</a><br>
+          </div>
+        </div>
+      </div>
+      <button id="closeRC">Cerrar</button>
+    </div>
+  </div>
+  <script>
+    ventModal(document.getElementById('openRC'), document.getElementById('RC'), document.getElementById('closeRC'),
+      document.getElementById('mod-RC'));
+  </script>
+
+  <div id="compRC" class="modal-contenedor">
+    <div class="modal4" id="mod-comRC" style="background-color: rgba(0, 0, 0,0.7);">
+      <hr>
+      </hr>
+      <h1>Comprar producto</h1>
+      <hr>
+      </hr>
+      <div class="divisor">
+        <div class="row">
+          <div class="col s12">
+            <div class="carousel center-align">
+              <div class="carousel-item">
+                <div class="contenedor2">
+                  <a target="_blank"
+                    href="https://fungiterra.mercadoshops.com.mx/MLM-1342701328-reishi-chai-te-chai-con-ganoderma-10-sobres-individuales-_JM#position=14&search_layout=stack&type=item&tracking_id=0691a9dc-ede9-4fc2-a8e4-ad066ae6e5d6">
+                    <div class="tarjetasU">
+                      <img src="Media/Productos/RCHAI/C1.jpg">
+                      <h3>Comprar (10 sobres)</h3>
+                    </div>
+                  </a>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="contenedor2">
+                  <a target="_blank"
+                    href="https://fungiterra.mercadoshops.com.mx/MLM-1333859414-reishi-chai-te-chai-con-ganoderma-25-sobres-individuales-_JM#position=4&search_layout=stack&type=item&tracking_id=9b4981d5-89fc-46b9-9ff3-9e2e51817722">
+                    <div class="tarjetasU">
+                      <img src="Media/Productos/RCHAI/C2.jpg">
+                      <h3> Comprar (25 sobres)</h3>
+                    </div>
+                  </a>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="contenedor2">
+                  <a target="_blank"
+                    href="https://fungiterra.mercadoshops.com.mx/MLM-1366784962-reishi-chai-te-chai-con-ganoderma-10-sobres-individuales-_JM#position=19&search_layout=stack&type=item&tracking_id=64ef8d93-e06f-447d-bb0d-f5976a397917">
+                    <div class="tarjetasU">
+                      <img src="Media/Productos/RCHAI/C3.jpg">
+                      <h3>Comprar paquete (3pz de 10 sobres)</h3>
+                    </div>
+                </div>
+              </div>
+
+              <div class="carousel-item">
+                <div class="contenedor2">
+                  <a target="_blank"
+                    href="https://fungiterra.mercadoshops.com.mx/MLM-1366931213-paquete-reishi-chai-10s-y-reishi-cafe-250-_JM#position=24&search_layout=stack&type=item&tracking_id=c0332d06-d148-4cee-84c8-35198788edc1">
+                    <div class="tarjetasU">
+                      <img src="Media/Productos/CafeGanoderma/3C.jpg">
+                      <h3>Comprar paquete (Café y 10s Té REISHIchai)</h3>
+                    </div>
+                  </a>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="contenedor2">
+                  <a target="_blank"
+                    href="https://fungiterra.mercadoshops.com.mx/MLM-1367020824-paquete-reishi-chai-25s-y-reishi-cafe-250-_JM#position=26&search_layout=stack&type=item&tracking_id=b6784c89-279f-448b-8b9e-9ce9b2e23cca">
+                    <div class="tarjetasU">
+                      <img src="Media/Productos/CafeGanoderma/4C.jpg">
+                      <h3>Comprar paquete (Café y 25s de Té REISHIchai)</h3>
+                    </div>
+                  </a>
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <button id="closeComRC">Cerrar</button>
+    </div>
+  </div>
+  <script>
+    ventModal4(document.getElementById('openComRC'), document.getElementById('compRC'), document.getElementById(
+      'closeComRC'), document.getElementById('mod-comRC'));
+  </script>
+  <!-------------->
+  <div id="DES" class="modal-contenedor">
+    <div class="modal" id="mod-DES"
+      style=" background-image: url('Media/FONDO.jpeg'); 	background-position: center; background-size: cover;">
+      <hr>
+      </hr>
+      <h1>Selección de Hongos Deshidratados </h1>
+      <hr>
+      </hr>
+      <div class="cont">
+        <div class="tarjetasU">
+          <ul class="slider">
+            <li id="slide1DES">
+              <img src="Media/Productos/DES/1.jpg" />
+            </li>
+            <li id="slide2DES">
+              <img src="Media/Productos/DES/2.jpg" />
+            </li>
+            <li id="slide3DES">
+              <img src="Media/Productos/DES/3.jpg" />
+            </li>
+          </ul>
+          </br>
+          <ul class="menu">
+            <li>
+              <a href="#slide1DES"><img src="Media/Productos/DES/1.jpg" /></a>
+            </li>
+            <li>
+              <a href="#slide2DES"><img src="Media/Productos/DES/2.jpg" /></a>
+            </li>
+            <li>
+              <a href="#slide3DES"><img src="Media/Productos/DES/3.jpg" /></a>
+            </li>
+          </ul>
+        </div>
+        <div class="tarjetasU" style="box-shadow: 0 2px 2px rgba(0,0,0.2,0.2);">
+          <div class="texto">
+            <h2 align="center">Detalles</h2>
+            <p align="justify">Selección de hongos deshidratados, Caja con 12 sobres 35g cu cultivados de manera
+              agroecológica, contiene Seta Dorada, Rosa, Blanca, Azul y Gris deshidratada, Enkitake, pholiota,
+              Shiitake,
+              puede contener hongos especiales de temporalidades como seta agave.
+              Hongos Deshidratados que puedes rehidratar con dos tazas de agua en ebullición y prepararlos como mas te
+              gusten.</p></br>
+
+            <p align="left"> <b>Categoría:</b> Producto Gourmet. </p>
+            <p align="left"> <b>Estado:</b> Disponible</p>
+            </br>
+            <a class="botonc contactar"
+              style="background-color: #2d7032 ; border: 0; border-radius: 5px; box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); color: #fff; font-size: 14px; padding: 10px 25px;"
+              align="Right">Contactar</a>
+            <a id="openComDES"
+              style="background-color: #118DA4 ; border: 0; border-radius: 5px; box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); color: #fff; font-size: 14px; padding: 10px 25px;"
+              align="Right">Comprar</a>
+          </div>
+        </div>
+      </div>
+      <button id="closeDES">Cerrar</button>
+    </div>
+  </div>
+  <script>
+    ventModal(document.getElementById('openDES'), document.getElementById('DES'), document.getElementById('closeDES'),
+      document.getElementById('mod-DES'));
+  </script>
+
+  <div id="compDES" class="modal-contenedor" style="background-color: rgba(0, 0, 0,0.7);">
+    <div class="modal4" id="mod-comDES">
+      <hr>
+      </hr>
+      <h1>Comprar producto</h1>
+      <hr>
+      </hr>
+      <div class="divisor">
+        <div class="row">
+          <div class="col s12">
+            <div class="carousel center-align">
+              <div class="carousel-item">
+                <div class="contenedor2">
+                  <a target="_blank"
+                    href="https://fungiterra.mercadoshops.com.mx/MLM-1341543824-seleccion-de-hongos-deshidratados-portobello-eryngii-seta-_JM#position=5&search_layout=stack&type=item&tracking_id=3c4111ba-bede-428c-9466-ef8687354374">
+                    <div class="tarjetasU">
+                      <img src="Media/Productos/DES.jpg">
+                      <h3>Comprar unidad</h3>
+                    </div>
+                  </a>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="contenedor2">
+                  <a target="_blank"
+                    href="https://fungiterra.mercadoshops.com.mx/MLM-1341555490-caja-de-12-pqts-seleccion-de-hongos-deshidratados-fungiterra-_JM#position=10&search_layout=stack&type=item&tracking_id=0691a9dc-ede9-4fc2-a8e4-ad066ae6e5d6">
+                    <div class="tarjetasU">
+                      <img src="Media/Productos/DES/C1.jpg">
+                      <h3> Comprar caja (12pz)</h3>
+                    </div>
+                  </a>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="contenedor2">
+                  <a target="_blank"
+                    href="https://fungiterra.mercadoshops.com.mx/MLM-1341543824-seleccion-de-hongos-deshidratados-portobello-eryngii-seta-_JM#position=5&search_layout=stack&type=item&tracking_id=3c4111ba-bede-428c-9466-ef8687354374">
+                    <div class="tarjetasU">
+                      <img src="Media/Productos/DES.jpg">
+                      <h3>Comprar unidad</h3>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+
+      <button id="closeComDES">Cerrar</button>
+    </div>
+  </div>
+  <script>
+    ventModal4(document.getElementById('openComDES'), document.getElementById('compDES'), document.getElementById(
+      'closeComDES'), document.getElementById('mod-comDES'));
+  </script>
+
+
+
+  <!------>
+  <div id="HE" class="modal-contenedor">
+    <div class="modal" id="mod-HE"
+      style=" background-image: url('Media/FONDO.jpeg'); 	background-position: center; background-size: cover;">
+      <hr>
+      </hr>
+      <h1>Hongos en Escabeche</h1>
+      <hr>
+      </hr>
+      <div class="cont">
+        <div class="tarjetasU">
+          <ul class="slider">
+            <li id="slide1HE">
+              <img src="Media/Productos/HESCA/1.jpg" />
+            </li>
+            <li id="slide2HE">
+              <img src="Media/Productos/HESCA/2.jpg" />
+            </li>
+            <li id="slide3HE">
+              <img src="Media/Productos/HESCA/3.jpg" />
+            </li>
+            <li id="slide4HE">
+              <img src="Media/Productos/HESCA/4.jpg" />
+            </li>
+          </ul>
+          </br>
+          <ul class="menu">
+            <li>
+              <a href="#slide1HE"><img src="Media/Productos/HESCA/1.jpg" /></a>
+            </li>
+            <li>
+              <a href="#slide2HE"><img src="Media/Productos/HESCA/2.jpg" /></a>
+            </li>
+            <li>
+              <a href="#slide3HE"><img src="Media/Productos/HESCA/3.jpg" /></a>
+            </li>
+            <li>
+              <a href="#slide4HE"><img src="Media/Productos/HESCA/4.jpg" /></a>
+            </li>
+          </ul>
+        </div>
+        <div class="tarjetasU" style="box-shadow: 0 2px 2px rgba(0,0,0.2,0.2);">
+          <div class="texto">
+            <h2 align="center">Detalles</h2>
+            <p align="justify">Mezcla única de hongos, chile chipotle y especias que otorgan un sabor delicioso ideal
+              para acompañar con queso untable, corte de carne etc.</br>
+              Cero conservadores, cero químicos añadidos, crecimiento agro ecológico.</p>
+            <br />
+            <p align="left"> <b>Categoría:</b> Producto Gourmet. </p>
+            <p align="left"> <b>Estado:</b> Disponible</p>
+            </br>
+            <a class="botonc contactar"
+              style="background-color: #2d7032 ; border: 0; border-radius: 5px; box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); color: #fff; font-size: 14px; padding: 10px 25px;"
+              align="Right">Contactar</a>
+            <a id="openComHE" target="_blank"
+              style="background-color: #118DA4 ; border: 0; border-radius: 5px; box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); color: #fff; font-size: 14px; padding: 10px 25px;"
+              align="Right">Comprar</a><br><br>
+          </div>
+        </div>
+      </div>
+      <button id="closeHE">Cerrar</button>
+    </div>
+  </div>
+  <script>
+    ventModal(document.getElementById('openHE'), document.getElementById('HE'), document.getElementById('closeHE'),
+      document.getElementById('mod-HE'));
+  </script>
+  <div id="compHE" class="modal-contenedor" style="background-color: rgba(0, 0, 0,0.7);">
+    <div class="modal4" id="mod-comHE">
+      <hr>
+      </hr>
+      <h1>Comprar producto</h1>
+      <hr>
+      </hr>
+
+      <div class="divisor">
+        <div class="row">
+          <div class="col s12">
+            <div class="carousel center-align">
+              <div class="carousel-item">
+                <div class="contenedor2">
+                  <a target="_blank"
+                    href="https://fungiterra.mercadoshops.com.mx/MLM-1343380838-escabeche-de-hongos-seta-mix-blanca-gris-rosa-azul-_JM#position=16&search_layout=stack&type=item&tracking_id=6bb3d83b-7b57-456d-a784-cddb78c1b972">
+                    <div class="tarjetasU">
+                      <img src="Media/Productos/PG-ESC.jpg">
+                      <h3>Comprar unidad</h3>
+                    </div>
+                  </a>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="contenedor2">
+                  <a target="_blank"
+                    href="https://fungiterra.mercadoshops.com.mx/MLM-1366813402-paquete-3-escabeche-de-hongos-seta-_JM#position=23&search_layout=stack&type=item&tracking_id=014167a5-4db6-4c95-9a37-7e49214873b0">
+                    <div class="tarjetasU">
+                      <img src="Media/Productos/HESCA/C1.jpg">
+                      <h3>Comprar paquete (3pz)</h3>
+                    </div>
+                  </a>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="contenedor2">
+                  <a target="_blank"
+                    href="https://fungiterra.mercadoshops.com.mx/MLM-1366937022-paquete-escabeche-de-hongos-seta-y-salsa-macha-con-shiitake-_JM#position=25&search_layout=stack&type=item&tracking_id=2cbf254f-d83f-4894-a01c-5a3429e6aafb">
+                    <div class="tarjetasU">
+                      <img src="Media/Productos/HESCA/C2.jpg">
+                      <h3>Comprar paquete (Escabeche y salsa Macha)</h3>
+                    </div>
+                  </a>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+      <button id="closeComHE">Cerrar</button>
+    </div>
+  </div>
+  <script>
+    ventModal4(document.getElementById('openComHE'), document.getElementById('compHE'), document.getElementById(
+      'closeComHE'), document.getElementById('mod-comHE'));
+  </script>
+
+  <!------>
+
+  <!------>
+  <div id="SAL" class="modal-contenedor">
+    <div class="modal" id="mod-SAL"
+      style=" background-image: url('Media/FONDO.jpeg'); 	background-position: center; background-size: cover;">
+      <hr>
+      </hr>
+      <h1>Salsa Macha reducida en Sodio con Sal de Shiitake</h1>
+      <hr>
+      </hr>
+      <div class="cont">
+        <div class="tarjetasU">
+          <ul class="slider">
+            <li id="slide1SAL">
+              <img src="Media/Productos/SAL/1.jpg" />
+            </li>
+            <li id="slide2SAL">
+              <img src="Media/Productos/SAL/2.jpg" />
+            </li>
+            <li id="slide3SAL">
+              <img src="Media/Productos/SAL/3.jpg" />
+            </li>
+          </ul>
+          </br>
+          <ul class="menu">
+            <li>
+              <a href="#slide1SAL"><img src="Media/Productos/SAL/1.jpg" /></a>
+            </li>
+            <li>
+              <a href="#slide2SAL"><img src="Media/Productos/SAL/2.jpg" /></a>
+            </li>
+            <li>
+              <a href="#slide3SAL"><img src="Media/Productos/SAL/3.jpg" /></a>
+            </li>
+          </ul>
+        </div>
+        <div class="tarjetasU" style="box-shadow: 0 2px 2px rgba(0,0,0.2,0.2);">
+          <div class="texto">
+            <h2 align="center">Detalles</h2>
+            <p align="justify">Salsa Macha con Sal de Shiitake, seta variedad blanca, gris, rosa, azul; con , chile
+              morita, cacahuate, semilla girasol, ajonjolí, aceite de canola, aceite de soya y sal reducida en sodio.
+              <br>Este producto es perfecto para entradas, tapas, tortas de papa, tostadas etc.</p></br>
+            <br />
+            <p align="left"> <b>Categoría:</b> Producto Gourmet. </p>
+            <p align="left"> <b>Estado:</b> Disponible</p>
+            </br>
+            <a class="botonc contactar"
+              style="background-color: #2d7032 ; border: 0; border-radius: 5px; box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); color: #fff; font-size: 14px; padding: 10px 25px;"
+              align="Right">Contactar</a>
+            <a id="openComSAL"
+              style="background-color: #118DA4 ; border: 0; border-radius: 5px; box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); color: #fff; font-size: 14px; padding: 10px 25px;"
+              align="Right">Comprar</a>
+          </div>
+        </div>
+      </div>
+      <button id="closeSAL">Cerrar</button>
+    </div>
+  </div>
+  <script>
+    ventModal(document.getElementById('openSAL'), document.getElementById('SAL'), document.getElementById('closeSAL'),
+      document.getElementById('mod-SAL'));
+  </script>
+  <div id="compSAL" class="modal-contenedor" style="background-color: rgba(0, 0, 0,0.7);">
+    <div class="modal4" id="mod-comSAL">
+      <hr>
+      </hr>
+      <h1>Comprar producto</h1>
+      <hr>
+      </hr>
+
+      <div class="divisor">
+        <div class="row">
+          <div class="col s12">
+            <div class="carousel center-align">
+              <div class="carousel-item">
+                <div class="contenedor2">
+                  <a target="_blank"
+                    href="https://fungiterra.mercadoshops.com.mx/MLM-1343394314-salsa-macha-con-sal-de-shiitake-reducida-en-sodio-_JM#position=17&search_layout=stack&type=item&tracking_id=02fc755a-534a-4cc1-a1d3-0270d568157a">
+                    <div class="tarjetasU">
+                      <img src="Media/Productos/SAL.jpg">
+                      <h3>Comprar unidad</h3>
+                    </div>
+                  </a>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="contenedor2">
+                  <a target="_blank"
+                    href="https://fungiterra.mercadoshops.com.mx/MLM-1366937022-paquete-escabeche-de-hongos-seta-y-salsa-macha-con-shiitake-_JM#position=25&search_layout=stack&type=item&tracking_id=2cbf254f-d83f-4894-a01c-5a3429e6aafb">
+                    <div class="tarjetasU">
+                      <img src="Media/Productos/HESCA/C2.jpg">
+                      <h3>Comprar paquete (Escabeche y salsa Macha)</h3>
+                    </div>
+                  </a>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="contenedor2">
+                  <a target="_blank"
+                    href="https://fungiterra.mercadoshops.com.mx/MLM-1343394314-salsa-macha-con-sal-de-shiitake-reducida-en-sodio-_JM#position=17&search_layout=stack&type=item&tracking_id=02fc755a-534a-4cc1-a1d3-0270d568157a">
+                    <div class="tarjetasU">
+                      <img src="Media/Productos/SAL.jpg">
+                      <h3>Comprar unidad</h3>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <button id="closeComSAL">Cerrar</button>
+    </div>
+  </div>
+  <script>
+    ventModal4(document.getElementById('openComSAL'), document.getElementById('compSAL'), document.getElementById(
+      'closeComSAL'), document.getElementById('mod-comSAL'));
+  </script>
+
+  <!------>
+  <!---------- Ventanas Modales Seccion Productos funcionales--------------->
+  <div id="CML" class="modal-contenedor">
+    <div class="modal" id="mod-CML"
+      style=" background-image: url('Media/FONDO.jpeg'); 	background-position: center; background-size: cover;">
+      <hr>
+      </hr>
+      <h1>Cápsulas de Melena de León</h1>
+      <hr>
+      </hr>
+      <div class="cont">
+        <div class="tarjetasU">
+          <ul class="slider">
+            <li id="slide1CML">
+              <img src="Media/Productos/CAPG/1.jpg" />
+            </li>
+            <li id="slide2CML">
+              <img src="Media/Productos/CAPG/2.jpg" />
+            </li>
+            <li id="slide3CML">
+              <img src="Media/Productos/CAPG/3.jpg" />
+            </li>
+          </ul>
+          </br>
+          <ul class="menu">
+            <li>
+              <a href="#slide1CML"><img src="Media/Productos/CAPG/1.jpg" /></a>
+            </li>
+            <li>
+              <a href="#slide2CML"><img src="Media/Productos/CAPG/2.jpg" /></a>
+            </li>
+            <li>
+              <a href="#slide3CML"><img src="Media/Productos/CAPG/3.jpg" /></a>
+            </li>
+          </ul>
+        </div>
+        <div class="tarjetasU" style="box-shadow: 0 2px 2px rgba(0,0,0.2,0.2);">
+          <div class="texto">
+            <h2 align="center">Detalles</h2>
+            <p align="justify">Hasta ahora, el hongo que más actividad presenta frente a las enfermedades
+              neurodegenerativas Hericium erinaceus, de venta en cápsulas y extracto.</p></br>
+            <br />
+            <p align="left"> <b>Categoría:</b> Producto Funcional. </p>
+            <p align="left"> <b>Estado:</b> Disponible</p>
+            </br>
+            <a class="botonc contactar"
+              style="background-color: #2d7032 ; border: 0; border-radius: 5px; box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); color: #fff; font-size: 14px; padding: 10px 25px;"
+              align="Right">Contactar</a>
+            <a id="openComCML"
+              style="background-color: #118DA4 ; border: 0; border-radius: 5px; box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); color: #fff; font-size: 14px; padding: 10px 25px;"
+              align="Right">Comprar</a><br> <br>
+          </div>
+        </div>
+      </div>
+      <button id="closeCML">Cerrar</button>
+    </div>
+  </div>
+  <script>
+    ventModal(document.getElementById('openCML'), document.getElementById('CML'), document.getElementById('closeCML'),
+      document.getElementById('mod-CML'));
+  </script>
+  <div id="compCML" class="modal-contenedor" style="background-color: rgba(0, 0, 0,0.7);">
+    <div class="modal4" id="mod-comCML">
+      <hr>
+      </hr>
+      <h1>Comprar producto</h1>
+      <hr>
+      </hr>
+
+      <div class="divisor">
+        <div class="row">
+          <div class="col s12">
+            <div class="carousel center-align">
+              <div class="carousel-item">
+                <div class="contenedor2">
+                  <a target="_blank" href="">
+                    <a target="_blank"
+                      href="https://fungiterra.mercadoshops.com.mx/MLM-1366791170-hericium-caps-origen-bovino-gelatina45-1g-_JM#position=20&search_layout=stack&type=item&tracking_id=a1c55ad5-8e18-4099-b48c-bc256ca6561a">
+                      <div class="tarjetasU">
+                        <img src="Media/Productos/PF-CML.jpg">
+                        <h3>Comprar caja cápsulas origen bovino (gelatina)</h3>
+                      </div>
+                    </a>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="contenedor2">
+                  <a target="_blank"
+                    href="https://fungiterra.mercadoshops.com.mx/MLM-1366804467-2-cajas-reishi-caps-ganoderma-origen-bovino-45-1g-_JM#position=22&search_layout=stack&type=item&tracking_id=817180a2-d785-4d06-80d3-d0003774524b">
+                    <div class="tarjetasU">
+                      <img src="Media/Productos/PF-CML.jpg">
+                      <h3> Comprar paquete 2 cajas cápsulas origen bovino</h3>
+                    </div>
+                  </a>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="contenedor2">
+                  <a target="_blank"
+                    href="https://fungiterra.mercadoshops.com.mx/MLM-1366785127-paquete-de2hericium-caps-origen-bovino-gelatina45-1g-_JM#position=1&search_layout=stack&type=item&tracking_id=61ec5fd8-9bbf-4b8e-a5f8-c760375005ea">
+                    <div class="tarjetasU">
+                      <img src="Media/Productos/CAPG/C1.jpg">
+                      <h3>Comprar paquete 2 cajas cápsulas origen bovino(gelatina)</h3>
+                    </div>
+                  </a>
+                </div>
+              </div>
+
+              <div class="carousel-item">
+                <div class="contenedor2">
+                  <a target="_blank"
+                    href="https://fungiterra.mercadoshops.com.mx/MLM-1342700438-reishi-caps-ganoderma-origen-vegetal-45-1g-_JM#position=13&search_layout=stack&type=item&tracking_id=083a3246-01c9-4748-803b-df929fdbc19a">
+                    <div class="tarjetasU">
+                      <img src="Media/Productos/CAPG/C1.jpg">
+                      <h3>Comprar capsulas origen vegetal</h3>
+                    </div>
+                  </a>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+      <button id="closeComCML">Cerrar</button>
+    </div>
+  </div>
+  <script>
+    ventModal4(document.getElementById('openComCML'), document.getElementById('compCML'), document.getElementById(
+      'closeComCML'), document.getElementById('mod-comCML'));
+  </script>
+  <!------>
+  <div id="EGL" class="modal-contenedor">
+    <div class="modal" id="mod-EGL"
+      style=" background-image: url('Media/FONDO.jpeg'); 	background-position: center; background-size: cover;">
+      <hr>
+      </hr>
+      <h1>Extracto de Ganoderma Lucidum</h1>
+      <hr>
+      </hr>
+      <div class="cont">
+        <div class="tarjetasU">
+          <ul class="slider">
+            <li id="slide1EGN">
+              <img src="Media/Productos/ESGN/1.jpg" />
+            </li>
+          </ul>
+          </br>
+          <ul class="menu">
+            <li>
+              <a href="#slide1EGN"><img src="Media/Productos/ESGN/1.jpg" /></a>
+            </li>
+          </ul>
+        </div>
+        <div class="tarjetasU" style="box-shadow: 0 2px 2px rgba(0,0,0.2,0.2);">
+          <div class="texto">
+            <h2 align="center">Detalles</h2>
+            <p align="justify">Estracto de los hongos Ganoderma lucidum.</br>
+              Ganoderma Sp en doble extracto 10 ml frasco de vidrio gotero sello de garantía. hongo funcional que
+              beneficia a nuestro organismo.</p>
+            <br />
+            <p align="left"> <b>Categoría:</b> Producto Funcional. </p>
+            <p align="left"> <b>Estado:</b> Disponible</p>
+            </br>
+            <a class="botonc contactar"
+              style="background-color: #2d7032 ; border: 0; border-radius: 5px; box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); color: #fff; font-size: 14px; padding: 10px 25px;"
+              align="Right">Contactar</a>
+            <a id="openComEGL"
+              style="background-color: #118DA4 ; border: 0; border-radius: 5px; box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); color: #fff; font-size: 14px; padding: 10px 25px;"
+              align="Right">Comprar</a> <br>
+          </div>
+        </div>
+      </div>
+      <button id="closeEGL">Cerrar</button>
+    </div>
+  </div>
+  <script>
+    ventModal(document.getElementById('openEGL'), document.getElementById('EGL'), document.getElementById('closeEGL'),
+      document.getElementById('mod-EGL'));
+  </script>
+  <div id="compEGL" class="modal-contenedor" style="background-color: rgba(0, 0, 0,0.7);">
+    <div class="modal4" id="mod-comEGL">
+      <hr>
+      </hr>
+      <h1>Comprar producto</h1>
+      <hr>
+      </hr>
+
+      <div class="divisor">
+        <div class="row">
+          <div class="col s12">
+            <div class="carousel center-align">
+              <div class="carousel-item">
+                <div class="contenedor2">
+                  <a target="_blank"
+                    href="https://fungiterra.mercadoshops.com.mx/MLM-1342700880-extracto-ganoderma-sp-10-ml-fungiterra-_JM#position=13&search_layout=stack&type=item&tracking_id=0691a9dc-ede9-4fc2-a8e4-ad066ae6e5d6">
+                    <div class="tarjetasU">
+                      <img src="Media/Productos/ESGN/C1.jpg">
+                      <h3>Comprar unidad</h3>
+                    </div>
+                  </a>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="contenedor2">
+
+                  <a target="_blank"
+                    href="https://fungiterra.mercadoshops.com.mx/MLM-1366777654-paquete-mensual-30-ml-3-extracto-reishi-10ml-cu-_JM#position=2&search_layout=stack&type=item&tracking_id=ab4d53e2-bd19-4c9e-81f7-73802a64716b">
+                    <div class="tarjetasU">
+                      <img src="Media/Productos/ESGN/C2.jpg">
+                      <h3> Comprar paquete (3pz)</h3>
+                    </div>
+                  </a>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="contenedor2">
+                  <a target="_blank"
+                    href="https://fungiterra.mercadoshops.com.mx/MLM-1342700880-extracto-ganoderma-sp-10-ml-fungiterra-_JM#position=13&search_layout=stack&type=item&tracking_id=0691a9dc-ede9-4fc2-a8e4-ad066ae6e5d6">
+                    <div class="tarjetasU">
+                      <img src="Media/Productos/ESGN/C1.jpg">
+                      <h3>Comprar unidad</h3>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button id="closeComEGL">Cerrar</button>
+    </div>
+  </div>
+  <script>
+    ventModal4(document.getElementById('openComEGL'), document.getElementById('compEGL'), document.getElementById(
+      'closeComEGL'), document.getElementById('mod-comEGL'));
+  </script>
+  <!------>
+  <div id="ES" class="modal-contenedor">
+    <div class="modal" id="mod-ES"
+      style=" background-image: url('Media/FONDO.jpeg'); 	background-position: center; background-size: cover;">
+      <hr>
+      </hr>
+      <h1>Extracto Shitake</h1>
+      <hr>
+      </hr>
+      <div class="cont">
+        <div class="tarjetasU">
+          <ul class="slider">
+            <li id="slide1ES">
+              <img src="Media/Productos/ESS/1.jpg" />
+            </li>
+            <li id="slide2ES">
+              <img src="Media/Productos/ESS/2.jpg" />
+            </li>
+          </ul>
+          </br>
+          <ul class="menu">
+            <li>
+              <a href="#slide1ES"><img src="Media/Productos/ESS/1.jpg" /></a>
+            </li>
+            <li>
+              <a href="#slide2ES"><img src="Media/Productos/ESS/2.jpg" /></a>
+            </li>
+          </ul>
+        </div>
+        <div class="tarjetasU" style="box-shadow: 0 2px 2px rgba(0,0,0.2,0.2);">
+          <div class="texto">
+            <h2 align="center">Detalles</h2>
+            <p align="justify">Extractos de los hongos Lentinula edodes.<br>Shiitake en doble extracto 10 ml frasco de
+              vidrio gotero sello de garantía. hongo funcional que beneficia a nuestro organismo.
+            </p>
+            <br />
+            <p align="left"> <b>Categoría:</b> Producto Funcional. </p>
+            <p align="left"> <b>Estado:</b> Disponible</p>
+            </br>
+            <a class="botonc contactar"
+              style="background-color: #2d7032 ; border: 0; border-radius: 5px; box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); color: #fff; font-size: 14px; padding: 10px 25px;"
+              align="Right">Contactar</a>
+            <a id="openComES"
+              style="background-color: #118DA4 ; border: 0; border-radius: 5px; box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); color: #fff; font-size: 14px; padding: 10px 25px;"
+              align="Right">Comprar</a><br><br>
+          </div>
+        </div>
+      </div>
+      <button id="closeES">Cerrar</button>
+    </div>
+  </div>
+  <script>
+    ventModal(document.getElementById('openES'), document.getElementById('ES'), document.getElementById('closeES'),
+      document.getElementById('mod-ES'));
+  </script>
+  <div id="compES" class="modal-contenedor" style="background-color: rgba(0, 0, 0,0.7);">
+    <div class="modal4" id="mod-comES">
+      <hr>
+      </hr>
+      <h1>Comprar producto</h1>
+      <hr>
+      </hr>
+
+      <div class="divisor">
+        <div class="row">
+          <div class="col s12">
+            <div class="carousel center-align">
+              <div class="carousel-item">
+                <div class="contenedor2">
+                  <a target="_blank"
+                    href="https://fungiterra.mercadoshops.com.mx/MLM-1342657525-extracto-shiitake-sp-10-ml-fungiterra-_JM#position=8&search_layout=stack&type=item&tracking_id=0691a9dc-ede9-4fc2-a8e4-ad066ae6e5d6">
+                    <div class="tarjetasU">
+                      <img src="Media/Productos/ESS/C1.jpg">
+                      <h3>Comprar unidad</h3>
+                    </div>
+                  </a>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="contenedor2">
+                  <a target="_blank"
+                    href="https://fungiterra.mercadoshops.com.mx/MLM-1366796786-paquete-mensual-30mlextracto-shiitake-sp-10-ml-fungiterral-_JM#position=21&search_layout=stack&type=item&tracking_id=0d27285c-3c1d-4bdf-a5c9-8b43ce6bded8">
+                    <div class="tarjetasU">
+                      <img src="Media/Productos/ESS/C2.jpg">
+                      <h3> Comprar paquete (3pz)</h3>
+                    </div>
+                  </a>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="contenedor2">
+                  <a target="_blank"
+                    href="https://fungiterra.mercadoshops.com.mx/MLM-1342657525-extracto-shiitake-sp-10-ml-fungiterra-_JM#position=8&search_layout=stack&type=item&tracking_id=0691a9dc-ede9-4fc2-a8e4-ad066ae6e5d6">
+                    <div class="tarjetasU">
+                      <img src="Media/Productos/ESS/C1.jpg">
+                      <h3>Comprar unidad</h3>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button id="closeComES">Cerrar</button>
+    </div>
+  </div>
+  <script>
+    ventModal4(document.getElementById('openComES'), document.getElementById('compES'), document.getElementById(
+      'closeComES'), document.getElementById('mod-comES'));
+  </script>
+  <!------>
+  <div id="EML" class="modal-contenedor">
+    <div class="modal" id="mod-EML"
+      style=" background-image: url('Media/FONDO.jpeg'); 	background-position: center; background-size: cover;">
+      <hr>
+      </hr>
+      <h1>Extracto Melena de León</h1>
+      <hr>
+      </hr>
+      <div class="cont">
+        <div class="tarjetasU">
+          <ul class="slider">
+            <li id="slide1EML">
+              <img src="Media/Productos/ESML/1.jpg" />
+            </li>
+            <li id="slide2EML">
+              <img src="Media/Productos/ESML/2.jpg" />
+            </li>
+          </ul>
+          </br>
+          <ul class="menu">
+            <li>
+              <a href="#slide1EML"><img src="Media/Productos/ESML/1.jpg" /></a>
+            </li>
+            <li>
+              <a href="#slide2EML"><img src="Media/Productos/ESML/2.jpg" /></a>
+            </li>
+          </ul>
+        </div>
+        <div class="tarjetasU" style="box-shadow: 0 2px 2px rgba(0,0,0.2,0.2);">
+          <div class="texto">
+            <h2 align="center">Detalles</h2>
+            <p align="justify">Extractos de los hongos Hericium erinaceus.<br>Hericium erinaceus en doble extracto 10
+              ml
+              frasco de vidrio gotero sello de garantía. hongo funcional que beneficia a nuestro organismo.</p>
+            <br />
+            <p align="left"> <b>Categoría:</b> Producto Funcional. </p>
+            <p align="left"> <b>Estado:</b> Disponible</p>
+            </br>
+            <a class="botonc contactar"
+              style="background-color: #2d7032 ; border: 0; border-radius: 5px; box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); color: #fff; font-size: 14px; padding: 10px 25px;"
+              align="Right">Contactar</a>
+            <a id="openComEML"
+              style="background-color: #118DA4 ; border: 0; border-radius: 5px; box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); color: #fff; font-size: 14px; padding: 10px 25px;"
+              align="Right">Comprar</a>
+          </div>
+        </div>
+      </div>
+      <button id="closeEML">Cerrar</button>
+    </div>
+  </div>
+  <script>
+    ventModal(document.getElementById('openEML'), document.getElementById('EML'), document.getElementById('closeEML'),
+      document.getElementById('mod-EML'));
+  </script>
+  <div id="compEML" class="modal-contenedor" style="background-color: rgba(0, 0, 0,0.7);">
+    <div class="modal4" id="mod-comEML">
+      <hr>
+      </hr>
+      <h1>Comprar producto</h1>
+      <hr>
+      </hr>
+
+      <div class="divisor">
+        <div class="row">
+          <div class="col s12">
+            <div class="carousel center-align">
+              <div class="carousel-item">
+                <div class="contenedor2">
+                  <a target="_blank"
+                    href="https://fungiterra.mercadoshops.com.mx/MLM-1342707656-extracto-hericium-erinaceus-sp-10-ml-fungiterra-_JM#position=15&search_layout=stack&type=item&tracking_id=07ea6cf4-0c75-4584-a8bd-23e4d4421656">
+                    <div class="tarjetasU">
+                      <img src="Media/Productos/ESML/C1.jpg">
+                      <h3>Comprar unidad</h3>
+                    </div>
+                  </a>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="contenedor2">
+                  <a target="_blank"
+                    href="https://fungiterra.mercadoshops.com.mx/MLM-1366809770-paquete-mensual-30-ml-extracto-hericium-erinaceus-10mlcu-_JM#position=3&search_layout=stack&type=item&tracking_id=98db8fb7-1bfe-4f46-aff2-5bafc4f83549">
+                    <div class="tarjetasU">
+                      <img src="Media/Productos/ESML/C2.jpg">
+                      <h3> Comprar paquete (3pz)</h3>
+                    </div>
+                  </a>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="contenedor2">
+                  <a target="_blank"
+                    href="https://fungiterra.mercadoshops.com.mx/MLM-1342707656-extracto-hericium-erinaceus-sp-10-ml-fungiterra-_JM#position=15&search_layout=stack&type=item&tracking_id=07ea6cf4-0c75-4584-a8bd-23e4d4421656">
+                    <div class="tarjetasU">
+                      <img src="Media/Productos/ESML/C1.jpg">
+                      <h3>Comprar unidad</h3>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button id="closeComEML">Cerrar</button>
+    </div>
+  </div>
+  <script>
+    ventModal4(document.getElementById('openComEML'), document.getElementById('compEML'), document.getElementById(
+      'closeComEML'), document.getElementById('mod-comEML'));
+  </script>
+  <!------>
+  <!---------- Venatnas Modales Seccion para la piel--------------->
+  <div id="PGS" class="modal-contenedor">
+    <div class="modal" id="mod-PGS"
+      style=" background-image: url('Media/FONDO.jpeg'); 	background-position: center; background-size: cover;">
+      <hr>
+      </hr>
+      <h1>Pomada Ganoderma y Shitake</h1>
+      <hr>
+      </hr>
+      <div class="cont">
+        <div class="tarjetasU">
+          <ul class="slider">
+            <li id="slide1PGM">
+              <img src="Media/Productos/PGM/1.jpg" />
+            </li>
+            <li id="slide2PGM">
+              <img src="Media/Productos/PGM/2.jpg" />
+            </li>
+          </ul>
+          </br>
+          <ul class="menu">
+            <li>
+              <a href="#slide1PGM"><img src="Media/Productos/PGM/1.jpg" /></a>
+            </li>
+            <li>
+              <a href="#slide2PGM"><img src="Media/Productos/PGM/2.jpg" /></a>
+            </li>
+          </ul>
+        </div>
+        <div class="tarjetasU" style="box-shadow: 0 2px 2px rgba(0,0,0.2,0.2);">
+          <div class="texto">
+            <h2 align="center">Detalles</h2>
+            <p align="justify">Pomada con base de vaselina con efecto antibacterial, suaviza y humecta la piel de
+              manos,
+              cuello y rostro. Ventajas de su uso: Evita infecciones causadas por granos y acné, eliminan paño, reduce
+              manchas y líneas de expresión, aclara y suaviza la piel. Así mismo ayuda en la sanación de heridas
+              superficiales y quemaduras leves. Se recomienda su uso en las noches luego de la ducha.</p>
+            <p align="left"> <b>Categoría:</b> Producto para la Piel. </p>
+            <p align="left"> <b>Estado:</b> Disponible</p>
+            </br>
+            <a class="botonc contactar"
+              style="background-color: #2d7032 ; border: 0; border-radius: 5px; box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); color: #fff; font-size: 14px; padding: 10px 25px;"
+              align="Right">Contactar</a>
+            <br><br>
+            <a target="_blank"
+              href="https://fungiterra.mercadoshops.com.mx/MLM-1343464484-kit-cuidado-de-la-piel-crema-pomada-Jabón-reishi-shiitake-_JM#position=1&search_layout=stack&type=item&tracking_id=0b011389-365c-413d-9b83-be126c85791c"
+              style="background-color: #1162a4 ; border: 0; border-radius: 5px; box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); color: #fff; font-size: 14px; padding: 10px 25px;"
+              align="Right">Comprar kit (Crema,Pomada y Jabón)</a>
+          </div>
+        </div>
+      </div>
+      <button id="closePGS">Cerrar</button>
+    </div>
+  </div>
+  <script>
+    ventModal(document.getElementById('openPGS'), document.getElementById('PGS'), document.getElementById('closePGS'),
+      document.getElementById('mod-PGS'));
+  </script>
+  <!------>
+  <div id="JGL" class="modal-contenedor">
+    <div class="modal" id="mod-JGL"
+      style=" background-image: url('Media/FONDO.jpeg'); 	background-position: center; background-size: cover;">
+      <hr>
+      </hr>
+      <h1>Jabón de Ganoderma Lucidum</h1>
+      <hr>
+      </hr>
+      <div class="cont">
+        <div class="tarjetasU">
+          <ul class="slider">
+            <li id="slide1JAGL">
+              <img src="Media/Productos/PP-JGL.jpg" />
+            </li>
+            <li id="slide2JAGL">
+              <img src="Media/Productos/JAGL/1.jpg" />
+            </li>
+            <li id="slide3JAGL">
+              <img src="Media/Productos/JAGL/2.jpg" />
+            </li>
+          </ul>
+          </br>
+          <ul class="menu">
+            <li>
+              <a href="#slide1JAGL"><img src="Media/Productos/PP-JGL.jpg" /></a>
+            </li>
+            <li>
+              <a href="#slide2JAGL"><img src="Media/Productos/JAGL/1.jpg" /></a>
+            </li>
+            <li>
+              <a href="#slide3JAGL"><img src="Media/Productos/JAGL/2.jpg" /></a>
+            </li>
+          </ul>
+        </div>
+        <div class="tarjetasU" style="box-shadow: 0 2px 2px rgba(0,0,0.2,0.2);">
+          <div class="texto">
+            <h2 align="center">Detalles</h2>
+            <p align="justify">Contiene quitina en sus células, la cual le aporta dureza a su estructura y además ha
+              demostrado ser un elemento que le confiere a la piel humana humectación además de promover el factor de
+              crecimiento de las células epidérmicas, mejorando su suavidad y regeneración, es antibacterial,
+              fungicida,
+              además de ser un excelente auxiliar en la recuperación de heridas y quemaduras leves.</p>
+            <p align="left"> <b>Categoría:</b> Producto para la Piel. </p>
+            <p align="left"> <b>Estado:</b> Disponible</p>
+            </br>
+            <a class="botonc contactar"
+              style="background-color: #2d7032 ; border: 0; border-radius: 5px; box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); color: #fff; font-size: 14px; padding: 10px 25px;"
+              align="Right">Contactar</a>
+            <a id="openComJGL"
+              style="background-color: #118DA4 ; border: 0; border-radius: 5px; box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); color: #fff; font-size: 14px; padding: 10px 25px;"
+              align="Right">Comprar</a><br><br>
+          </div>
+        </div>
+      </div>
+      <button id="closeJGL">Cerrar</button>
+    </div>
+  </div>
+  <script>
+    ventModal(document.getElementById('openJGL'), document.getElementById('JGL'), document.getElementById('closeJGL'),
+      document.getElementById('mod-JGL'));
+  </script>
+  <div id="compJGL" class="modal-contenedor" style="background-color: rgba(0, 0, 0,0.7);">
+    <div class="modal4" id="mod-comJGL">
+      <hr>
+      </hr>
+      <h1>Comprar producto</h1>
+      <hr>
+      </hr>
+
+      <div class="divisor">
+        <div class="row">
+          <div class="col s12">
+            <div class="carousel center-align">
+              <div class="carousel-item">
+                <div class="contenedor2">
+                  <a target="_blank"
+                    href="https://fungiterra.mercadoshops.com.mx/MLM-1342814868-jab-con-ganoderma-y-shiitake-libre-de-sulfatos-aroma-lavanda-_JM#position=3&search_layout=stack&type=item&tracking_id=0518224b-bfb7-4da1-bf37-8beeea6ca91f">
+                    <div class="tarjetasU">
+                      <img src="Media/Productos/JAGL/c1.jpg">
+                      <h3>Comprar unidad</h3>
+                    </div>
+                  </a>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="contenedor2">
+                  <a target="_blank"
+                    href="https://fungiterra.mercadoshops.com.mx/MLM-1343389287-paquete-6-jabon-suave-con-ganoderma-shiitake-y-lavanda-_JM#position=4&search_layout=stack&type=item&tracking_id=cca2e260-fe7e-4a7a-ad19-2ed4efc15d10">
+                    <div class="tarjetasU">
+                      <img src="Media/Productos/JAGL/C2.jpg">
+                      <h3>Comprar paquete (6pz)</h3>
+                    </div>
+                  </a>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="contenedor2">
+                  <a target="_blank"
+                    href="https://fungiterra.mercadoshops.com.mx/MLM-1343443601-jab-con-ganoderma-y-shiitake-caja-24-pzs-60g-cu-_JM#position=5&search_layout=stack&type=item&tracking_id=9c73a7dc-ad46-4a6d-9531-38a3896f4d6d">
+                    <div class="tarjetasU">
+                      <img src="Media/Productos/JAGL/C3.jpg">
+                      <h3>Comprar paquete (24pz)</h3>
+                    </div>
+                  </a>
+                </div>
+              </div>
+
+              <div class="carousel-item">
+                <div class="contenedor2">
+                  <a target="_blank"
+                    href="https://fungiterra.mercadoshops.com.mx/MLM-1343464484-kit-cuidado-de-la-piel-crema-pomada-Jabón-reishi-shiitake-_JM#position=1&search_layout=stack&type=item&tracking_id=0b011389-365c-413d-9b83-be126c85791c">
+                    <div class="tarjetasU">
+                      <img src="Media/Productos/JAGL/C4.jpg">
+                      <h3>Comprar kit (Crema, Pomada y Jabón)</h3>
+                    </div>
+                  </a>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+      <button id="closeComJGL">Cerrar</button>
+    </div>
+  </div>
+  <script>
+    ventModal4(document.getElementById('openComJGL'), document.getElementById('compJGL'), document.getElementById(
+      'closeComJGL'), document.getElementById('mod-comJGL'));
+  </script>
+
+  <div id="CRF" class="modal-contenedor" role="dialog">
+    <div class="modal" id="mod-CRF"
+      style=" background-image: url('Media/FONDO.jpeg'); 	background-position: center; background-size: cover;">
+      <hr>
+      </hr>
+      <h1>Crema Facial Humectante</h1>
+      <hr>
+      </hr>
+      <div class="cont">
+        <div class="tarjetasU">
+          <ul class="slider">
+            <li id="slide1CRF">
+              <img src="Media/Productos/CRF/1.jpg" />
+            </li>
+            <li id="slide2CRF">
+              <img src="Media/Productos/CRF/2.jpg" />
+            </li>
+          </ul>
+          </br>
+          <ul class="menu">
+            <li>
+              <a href="#slide1CRF"><img src="Media/Productos/CRF/1.jpg" /></a>
+            </li>
+            <li>
+              <a href="#slide2CRF"><img src="Media/Productos/CRF/2.jpg" /></a>
+            </li>
+          </ul>
+        </div>
+        <div class="tarjetasU" style="box-shadow: 0 2px 2px rgba(0,0,0.2,0.2);">
+          <div class="texto">
+            <h2 align="center">Detalles</h2>
+            <p align="justify">
+              Crema facial ideal para renovar tu piel gracias a su combinación del extracto natural de Ganoderma Sp
+              que
+              te brinda mayor protección y humectación sin sensación grasosa.</p>
+            <p align="justify">Ayuda a la piel severamente deshidratada y seca. Humectación inmediata desde la primera
+              aplicación sin sensación grasa.</p>
+            <p align="left"> <b>Categoría:</b> Cuidado de la piel. </p>
+            <p align="left"> <b>Estado:</b> Disponible</p> <br>
+            <a class="botonc contactar"
+              style="background-color: #2d7032 ; border: 0; border-radius: 5px; box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); color: #fff; font-size: 14px; padding: 10px 25px;"
+              align="Right">Contactar</a>
+            <a id="openComCRF"
+              style="background-color: #118DA4 ; border: 0; border-radius: 5px; box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); color: #fff; font-size: 14px; padding: 10px 25px;"
+              align="Right">Comprar</a><br><br>
+          </div>
+        </div>
+      </div>
+      <button id="closeCRF">Cerrar</button>
+      </br>
+    </div>
+  </div>
+  <script>
+    ventModal(document.getElementById('openCRF'), document.getElementById('CRF'), document.getElementById('closeCRF'),
+      document.getElementById('mod-CRF'));
+  </script>
+  <div id="compCRF" class="modal-contenedor" style="  background-color: rgba(0, 0, 0,0.7);">
+    <div class="modal4" id="mod-comCRF">
+      <hr>
+      </hr>
+      <h1>Comprar producto</h1>
+      <hr>
+      </hr>
+      <div class="divisor">
+        <div class="row">
+          <div class="col s12">
+            <div class="carousel center-align">
+              <div class="carousel-item">
+                <div class="contenedor2">
+                  <a target="_blank"
+                    href="https://fungiterra.mercadoshops.com.mx/MLM-1342776546-crema-con-extracto-de-ganoderma-sp-libre-parabenos-_JM#position=2&search_layout=stack&type=item&tracking_id=e5941fd7-2e39-4127-91c8-c1042b610c37">
+                    <div class="tarjetasU">
+                      <img src="Media/Productos/CRF/C1.jpg">
+                      <h3>Comprar unidad</h3>
+                    </div>
+                  </a>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="contenedor2">
+                  <a target="_blank"
+                    href="https://fungiterra.mercadoshops.com.mx/MLM-1343464484-kit-cuidado-de-la-piel-crema-pomada-Jabón-reishi-shiitake-_JM#position=1&search_layout=stack&type=item&tracking_id=0b011389-365c-413d-9b83-be126c85791c">
+                    <div class="tarjetasU">
+                      <img src="Media/Productos/JAGL/C4.jpg">
+                      <h3> Comprar kit (Crema, Pomada y Jabón)</h3>
+                    </div>
+                  </a>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="contenedor2">
+                  <a target="_blank"
+                    href="https://fungiterra.mercadoshops.com.mx/MLM-1342776546-crema-con-extracto-de-ganoderma-sp-libre-parabenos-_JM#position=2&search_layout=stack&type=item&tracking_id=e5941fd7-2e39-4127-91c8-c1042b610c37">
+                    <div class="tarjetasU">
+                      <img src="Media/Productos/CRF/C1.jpg">
+                      <h3>Comprar unidad</h3>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button id="closeComCRF">Cerrar</button>
+    </div>
+  </div>
+  <script>
+    ventModal4(document.getElementById('openComCRF'), document.getElementById('compCRF'), document.getElementById(
+      'closeComCRF'), document.getElementById('mod-comCRF'));
+  </script>
+
+  <div id="CC" class="modal-contenedor" style="  background-color: rgba(0, 0, 0,0.7);">
+    <div class="modal3" id="mod-Cont">
+      <hr>
+      </hr>
+      <h1>Contactanos</h1>
+      <hr>
+      </hr>
+      <p align="center">
+        <table style="width: 100%;">
+          <tr>
+            <td>
+              <a href="https://wa.me/5217121730307" target="_blank">
+                <img src="Media/Redes/WHS.png" style="width:150px; height: 150px; float:left;">
+                <h2 align="center"><br>Whatsapp</h2>
+              </a>
+            </td>
+            <td>
+              <a href="https://www.facebook.com/fungiterra/?ref=page_internal" target="_blank"><img
+                  src="Media/Redes/FACE.png" style="width:150px; height: 150px;  float:left;">
+                <h2 align="center"><br>Facebook</h2>
+              </a>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <a href="https://www.instagram.com/fungiterra/" target="_blank"><img src="Media/Redes/INS.png"
+                  style="width:150px; height: 150px;float:left;">
+                <h2 align="center"><br>Instagram</h2>
+              </a>
+            </td>
+            <td>
+              <a href="https://twitter.com/fungi_terra?fbclid=IwAR3wCQYeYFTa2Aq0Pz0ACKOVJ0QudT4dIlHxO7b-loh15_LRXRZd7OhiHV0"
+                target="_blank"><img src="Media/Redes/TW.png" style="width:150px; height: 150px;float:left;">
+                <h2 align="center"><br>Twitter</h2>
+              </a>
+            </td>
+          </tr>
+        </table>
+      </p>
+      <button id="closeCon">Cerrar</button>
+    </div>
+  </div>
+  <script>
+    ventModalCont(document.querySelectorAll(".contactar"), document.getElementById('CC'), document.getElementById(
+      'closeCon'), document.getElementById('mod-Cont'));
+  </script>
+
+
+  <div id="DIR" class="modal-contenedor">
+    <div class="modal3" style="align-items:center;" id="mod-dir">
+      <hr>
+      </hr>
+      <h1>Directorio</h1>
+      <hr>
+      </hr>
+      <div class="tarjetasD">
+        <h2> Médico Veterinario Zootecnista</h2>
+        Victor Manuel Martínez Albarrán
+      </div>
+      <div class="tarjetasD">
+        <h2>Profesora</h2>
+        María Isabel Bárcena Velázquez
+      </div>
+      <div class="tarjetasD">
+        <h2>Biólogo y Maestro en Estrategias para el Desarrollo Agrícola Regional</h2>
+        Juan Antonio Martínez Bárcena
+      </div>
+      <div class="tarjetasD">
+        <h2>Química en Alimentos</h2>
+        María Isabel Martínez Bárcena
+      </div>
+      <div class="tarjetasD">
+        <h2>Biólogo y Maestro en Ciencias Agropecuarias </h2>
+        Victor Manuel Martínez Bárcena
+      </div>
+      <div class="tarjetasD">
+        <h2>Licenciado en Geografía</h2>
+        José Gamaliel Martínez Martínez
+      </div>
+      <div class="tarjetasD">
+        <h2>Biólogo</h2>
+        Ezequiel Martínez Martínez
+      </div>
+      <button id="closeDIR">Cerrar</button>
+    </div>
+  </div>
+
+  <script>
+    ventModal3(document.getElementById('openDIR'), document.getElementById('DIR'), document.getElementById(
+      'closeDIR'), document.getElementById('mod-dir'));
+  </script>
+  <script>
+    $('.icon').click(function () {
+      $('span').toggleClass("cancel");
+    });
+  </script>
+    <script src="JavaScript/Loader.js"></script>
+  <script>document.addEventListener('DOMContentLoaded',() => {
+    const elementoCarousel= document.querySelectorAll('.carousel');
+    M.Carousel.init(elementoCarousel, {
+      duration:200,
+      dist:-50,
+      shift:-50,
+      padding:-100,
+      numVisible:3,
+      indicators:true,
+      noWrap:false
+    });
+  });</script>
+  <script src="JavaScript/materialize.min.js"></script>
+</body>
+<footer>
+  <br />
+  <h2 align='center'> Contáctanos </h2>
+  </p>
+  <p align='center'>+52 (712) 173 0307 <br />
+    fungiterraventas@outlook.com</p>
+  <p align="center">
+    <div>
+      <a href="https://wa.me/5217121730307" target="_blank">
+        <img src="Media/Redes/WHSF.png" style="width:40px; height: 40px;">
+
+        <a href="https://www.facebook.com/fungiterra/?ref=page_internal" target="_blank"><img
+            src="Media/Redes/FACEF.png" style="width:40px; height: 40px;">
+
+          <a href="https://www.instagram.com/fungiterra/" target="_blank"><img src="Media/Redes/INSF.png"
+              style="width:40px; height: 40px;"></a>
+
+          <a href="https://twitter.com/fungi_terra?fbclid=IwAR3wCQYeYFTa2Aq0Pz0ACKOVJ0QudT4dIlHxO7b-loh15_LRXRZd7OhiHV0"
+            target="_blank"><img src="Media/Redes/TWF.png" style="width:40px; height: 40px;"></a>
+
+    </div>
+
+</footer>
+
+</html>

@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<!-- Created by CodingLab |www.youtube.com/CodingLabYT-->
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!--<title> Responsive Sidebar Menu  | CodingLab </title>-->
+  <link rel="stylesheet" href="Estilos/mat.css">
+  <link rel="stylesheet" href="Estilos/style.css">
+  <link rel="stylesheet" href="Estilos/Modal.css">
+  <script src="JavaScript/bar.js"></script>
+  <title>Inicio</title>
+  <link rel="shortcut icon" href="Media/LOGOAL.png" />
+  <link rel="shortcut icon" href="Media/LOGOAL.ico" />
+  <link rel="stylesheet" href="Estilos/mi-slider.css">
+  <script src="JavaScript/modernizr.js" type="text/javascript"></script>
+  <!-- Boxicons CDN Link -->
+  <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>  
+  <script src="JavaScript/Modal.js"></script>
+  <script src="JavaScript/jquery-3.1.1.min.js"></script>
+  
+  
+
+</head>
+<body> 
+   
+<div id="ctl" class="contenedor_loader">
+  <div class="loader">
+    <div class="item item-1"></div>
+    <div class="item item-2"></div>
+    <div class="item item-3"></div>
+    <div class="item item-4"></div>
+  </div>
+</div>  
+<nav id="barra">
+    <div class="logo">
+      <font style="color:#2ca84c;">FUNGI</font><font style="color:#844c3c;">TERRA</font>
+    </div>
+    <label for="btn" class="icon">
+      <span class="fa fa-bars"></span>
+    </label>
+    <input type="checkbox" id="btn">
+    <div class="ull">
+      <div class="lii"><a href="index.html">Inicio</a></div>
+      <div class="lii">
+        <label for="btn-1" class="MOSTRAR">Productos ></label>
+        <a href="Productos.html">Productos</a>
+        <input type="checkbox" id="btn-1">
+        <div class="ull">
+          <div class="lii"><a href="Productos.html">Productos</a></div>
+          <div class="lii"><a href="Granel.html">Productos a Granel</a></div>
+        </div>
+      </div>
+      <div class="lii">
+        <label for="btn-2" class="MOSTRAR">Servicios ></label>
+        <a href="Servicios.html">Servicios</a>
+        <input type="checkbox" id="btn-2">
+        <div class="ull">
+          <div class="lii"><a href="Servicios.html">Servicios</a></div>
+          <div class="lii"><a href="Oferta.html">Oferta Laboral y Colaboración</a></div>
+        </div>
+      </div>
+      <div class="lii"><a href="FungiWiki.html">FungiWiki</a></div>
+      <div class="lii"><a href="Novedades.html">Novedades</a></div>
+      <div class="lii"><a href="Ubicacion.html">Ubicación</a></div>
+      <div class="lii"><a id="openDIR">Directorio</a></div>
+      <div class="lii"><a class="cta" href="Contacto.html" style="color:white;">Contáctanos</a></div>
+    </div>
+  </nav>
+    <!----Presentación------>
+  <div class="container">
+    <div class="slider-wrapper theme-mi-slider">
+      <div id="slider2" class="nivoSlider">
+        <img src="Media/1M.jpg" alt="" title="#htmlcaption1M" />
+        <img src="Media/2M.jpg" alt="" title="#htmlcaption2M" />
+        <img src="Media/3M.jpg" alt="" title="#htmlcaption3M" />
+      </div>
+      <div id="htmlcaption1M" class="nivo-html-caption">
+        <h1>Bienvenido a Fungiterra</h1>
+        <p>Esta es la página oficial de FungiTerra, mucha gracias por estar aqui.</p>
+      </div>
+      <div id="htmlcaption2M" class="nivo-html-caption">
+        <h1 style="color:WHITE">Conocenos</h1>
+      </div>
+      <div id="htmlcaption3M" class="nivo-html-caption">
+        <h1 style="color:WHITE">Muchas Gracias por visitarnos</h1>
+      </div>
+    </div>
+  </div>
+  <script src="JavaScript/jquery.nivo.slider.js"></script>
+  <script type="text/javascript">
+      $(window).on('load', function () {
+        $('#slider2').nivoSlider();
+      });
+    </script>
+  </div>
+    <div class="ocultar">
+    <div class="slider-wrapper theme-mi-slider">
+      <div id="slider" class="nivoSlider">
+        <img src="Media/1.jpg" alt="" title="#htmlcaption1" />
+        <img src="Media/2.jpg" alt="" title="#htmlcaption2" />
+        <img src="Media/3.jpg" alt="" title="#htmlcaption3" />
+      </div>
+      <div id="htmlcaption1" class="nivo-html-caption">
+        <h1>Bienvenido a Fungiterra</h1>
+        <p>Esta es la página oficial de FungiTerra, mucha gracias por estar aqui.</p>
+      </div>
+      <div id="htmlcaption2" class="nivo-html-caption">
+        <h1 style="color:WHITE">Conocenos</h1>
+      </div>
+      <div id="htmlcaption3" class="nivo-html-caption">
+        <h1 style="color:WHITE">Muchas Gracias por visitarnos</h1>
+      </div>
+    </div>
+  </div>
+    <script src="JavaScript/jquery.nivo.slider.js"></script>
+<script type="text/javascript">
+    $(window).on('load', function () {
+      $('#slider').nivoSlider();
+    });
+  </script>
+
+    <!-------------->
+    <div class="text">
+      <font color=#2a984a size=16>
+        <h1 align='center'>Bienvenido</h1>
+      </font>
+      <p align='center'>Esperamos que tu visita sea agradable.</p><br /><br />
+    </div>
+    <div class="divisor"
+      style="background-image: url('Media/Banner/4.jpg'); 	background-position: center; background-size: cover;">
+      <div class="contenedor">
+        <div class="SliderVentana">
+          <h2 align='center'> ¿Quiénes somos? </h2>
+          <img src="Media/LOGOAL.png" style="float:left; margin:2%; width:30%" />
+          <p align='justify' style="margin:5%; font-size:100%;">Somos una empresa dedicada a la biotecnología de hongos comestibles y
+            medicinales
+            para desarrollar productos con alto valor nutricional y funcional.</p>
+        </div>
+        <div class="SliderVentana">
+          <h2 align='center'> ¿Qué vendemos? </h2>
+          <p align='justify' style="margin-left:5%; font-size: 95%;">Un mejor estilo de vida, con salud, nutrición y belleza de la manera más
+            natural que
+            no se encuentra en productos de origen vegetal o animal, además de una forma diferente de obtención de
+            productos con alto valor nutracéutico que no tienen que ver con la explotación de recursos naturales.</p>
+        </div>
+      </div>
+      <div class="contenedor">
+        <iframe src="https://www.youtube.com/embed/sGeaupqjpxs" title="FungiTerra" width="700" height="400"
+          style="border-radius: 20px;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture">
+        </iframe>
+      </div>
+    </div>
+
+    <!-----------------Tarjetas---------------------------->
+    <div class="separador" style="background-image: url('Media/Banner/16.jpg');">
+      <h1 style="color:black;"> Conoce nuestras metas </h1>
+    </div>
+    <div id="contM" class="container">
+      <div class="divisor"
+        style="background-image: url('Media/Banner/PTEM.jpg'); 	background-position: center; background-size: cover;">
+        <div class="container-text" style="background-color: #E5E5E5e7;">
+          <hr>   </hr>
+          <div class="divisorS">
+            <div class="titulo">
+              <h2 align="Center">Misión</h2>
+              <div class="marcos">
+                <img src="Media/IMG_MISION.jpg" style="width:95%; height:auto; margin:5px;" align="center">
+              </div>
+            </div>
+            <div class="text">
+              <p>Mejorar la calidad de vida de la población a través de la elaboración de
+                productos
+                con altas cualidades, atendiendo las necesidades financieras con precios accesibles y
+                responsabilizandose de la problemática ambiental contribuyendo a la disminución del impacto
+                humano y recuperación de espacios naturales.</p>
+            </div>
+          </div>
+          <hr>   </hr>
+          <div class="divisorS">
+            <div class="titulo">
+              <h2 align="Center">Visión</h2>
+              <div class="marcos">
+                <img src="Media/IMG_VISION.jpg" style="width:95%; height:auto; margin:5px;" align="center">
+              </div>
+            </div>
+            <div class="text">
+              <p>Ser la empresa lider en la producción de hongos comestibles y
+                medicinales, además de productos
+                con valor agregado y servicios a partir de los mismos; altamente competitiva en el mercado nacional e
+                internacional, contribuyendo a los requerimientos nutricionales y de salud de la población.</p>
+            </div>
+          </div>
+          <hr>   </hr>
+          <div class="divisorS">
+            <div class="titulo">
+              <h2 align="Center">Valores</h2>
+              <div class="marcos">
+                <img src="Media/IMG_VALORES.jpg" style="width:95%; height:auto; margin:5px;" align="center">
+              </div>
+            </div>
+            <div class="text">
+              <p> Los valores que nos caracterizan son:
+                <br />&nbsp;&nbsp;&nbsp;&nbsp;-Compromiso
+                <br />&nbsp;&nbsp;&nbsp;&nbsp;-Lealtad
+                <br />&nbsp;&nbsp;&nbsp;&nbsp;-Responsabilidad
+                <br />&nbsp;&nbsp;&nbsp;&nbsp;-Tenacidad
+                <br />&nbsp;&nbsp;&nbsp;&nbsp;-Respeto
+                <br />&nbsp;&nbsp;&nbsp;&nbsp;-Honestidad
+                <br />&nbsp;&nbsp;&nbsp;&nbsp;-Respeto
+                <br />&nbsp;&nbsp;&nbsp;&nbsp;-Honestidad
+                <br />&nbsp;&nbsp;&nbsp;&nbsp;-Flexibilidad
+                <br />&nbsp;&nbsp;&nbsp;&nbsp;-Tolerancia</p>
+            </div>
+          </div>
+          <hr>   </hr>
+        </div>
+      </div>
+    </div>
+    <div class="ocultar">
+      <div class="contenedor"
+        style="background-image: url('Media/Banner/PTEM.jpg'); 	background-position: center; background-size: cover; padding-top:2%; padding-bottom:2%;">
+        <div class="tarjetas">
+          <img src="Media/IMG_MISION.jpg">
+          <h4>Misión</h4>
+          <p align="justify" style="margin:5%;">Mejorar la calidad de vida de la población a través de la elaboración de
+            productos
+            con altas cualidades, atendiendo las necesidades financieras con precios accesibles y
+            responsabilizandose de la problemática ambiental contribuyendo a la disminución del impacto
+            humano y recuperación de espacios naturales.</p>
+          <br /><br />
+        </div>
+        <div class="tarjetas">
+          <img src="Media/IMG_VISION.jpg">
+          <h4>Visión</h4>
+          <p align="justify" style="margin:5%;"> Ser la empresa lider en la producción de hongos comestibles y
+            medicinales, además de productos
+            con valor agregado y servicios a partir de los mismos; altamente competitiva en el mercado nacional e
+            internacional, contribuyendo a los requerimientos nutricionales y de salud de la población. </p>
+          <br /><br />
+        </div>
+        <div class="tarjetas">
+          <img src="Media/IMG_VALORES.jpg">
+          <h4>Valores</h4>
+          <p align="justify" style="margin:5%;"> Los valores que nos caracterizan son:
+            <br />&nbsp;&nbsp;&nbsp;&nbsp;-Compromiso
+            <br />&nbsp;&nbsp;&nbsp;&nbsp;-Lealtad
+            <br />&nbsp;&nbsp;&nbsp;&nbsp;-Responsabilidad
+            <br />&nbsp;&nbsp;&nbsp;&nbsp;-Tenacidad
+            <br />&nbsp;&nbsp;&nbsp;&nbsp;-Respeto
+            <br />&nbsp;&nbsp;&nbsp;&nbsp;-Honestidad
+            <br />&nbsp;&nbsp;&nbsp;&nbsp;-Respeto
+            <br />&nbsp;&nbsp;&nbsp;&nbsp;-Honestidad
+            <br />&nbsp;&nbsp;&nbsp;&nbsp;-Flexibilidad
+            <br />&nbsp;&nbsp;&nbsp;&nbsp;-Tolerancia
+          </p>
+          <br />
+          <br />
+        </div>
+      </div>
+
+    </div>
+    <div class="separador" style="background-image: url('Media/Banner/16.jpg');">
+      <h1 style="color:black;"> Conoce nuestros productos</h1>
+    </div>
+    <!---div class="container"--->
+      <div class="divisor"
+        style="background-image: url('Media/Banner/14.jpg'); 	background-position: center; background-size: cover;">
+
+        <div class="row">
+          <div class="col s12">
+            <div class="carousel center-align">
+              <div class="carousel-item">
+                <div class="contenedor2">
+                  <div class="tarjetasU">
+                    <a href="Productos.html#productos_gourmet"><img src="Media/PRODUCTGOUR.jpg"></a>
+                    <h2> Productos<br /> Gourmet </h2>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="contenedor2">
+                  <div class="tarjetasU">
+                    <a href="Productos.html#productos_funcionales"><img src="Media/PRODUCFUN.jpg"></a>
+                    <h2>Productos <br /> Funcionales </h2>
+                    <br />
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="contenedor2">
+                  <div class="tarjetasU">
+                    <a href="Productos.html#productos_para_la_piel"><img src="Media/PRODUCPIEL.jpg"></a>
+                    <h2> Productos para el cuidado de la Piel </h2>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    <!----/div>
+
+    <div class="ocultar">
+      <div class="divisor"
+        style="background-image: url('Media/Banner/14.jpg'); 	background-position: center; background-size: cover;">
+        <div class="contenedor2">
+          <div class="tarjetasU">
+            <a href="Productos.html#productos_gourmet"><img src="Media/PRODUCTGOUR.jpg"></a>
+            <h2> Productos<br /> Gourmet </h2>
+          </div>
+          <div class="tarjetasU">
+            <a href="Productos.html#productos_funcionales"><img src="Media/PRODUCFUN.jpg"></a>
+            <h2>Productos <br /> Funcionales </h2>
+            <br />
+          </div>
+          <div class="tarjetasU">
+            <a href="Productos.html#productos_para_la_piel"><img src="Media/PRODUCPIEL.jpg"></a>
+            <h2> Productos para el cuidado de la Piel </h2>
+          </div>
+        </div>
+      </div>
+    </div--->
+    <div class="separador" style="background-image: url('Media/Banner/16.jpg');">
+      <h1 style="color:black;"> Novedades</h1>
+    </div>
+    <div class="divisor"
+        style="background-image: url('Media/Banner/PTEM.jpg'); 	background-position: center; background-size: cover;">
+    <div class="contenedorSB">
+      <div class="wrapper">
+
+        <ul id="sb-slider" class="sb-slider">
+          <li>
+            <img src="Media/Servicios/Feria.jpg" alt="image1" />
+            <div class="sb-description">
+              <h3>Feria del Hongo</h3>
+            </div>
+          </li>
+          <li>
+            <img src="Media/Servicios/Corridos.jpg" alt="image2" />
+            <div class="sb-description">
+              <h3>Corridos Micoturísticos</h3>
+            </div>
+          </li>
+        </ul>
+        <div id="nav-arrows" class="nav-arrows">
+          <a href="#">Siguiente</a>
+          <a href="#">Previous</a>
+        </div>
+
+      </div>
+    </div>
+    <div class="container-text">
+      <h1>Novedades en Fungiterra</h1>
+      <p style="margin:5%; text-align: justify;">Fungiterra trabaja reinventando, implementando y tratando de traer
+        nuevos servicios o productos a la sociedad, los proyectos actuales en los que estamos trabajando se pueden ver arriba.</p>
+    </div>
+
+  </div>  
+
+
+
+    <div class="separador" style="background-image: url('Media/Banner/16.jpg');">
+      <h1 style="color:black;"> Tienda en Línea</h1>
+    </div>
+    <div class="divisorS">
+      <div class="titulo">
+
+        <hr class="trans--grow hr1">
+        <br>
+        <h2>Visitas nuestra tienda en línea.</h2>
+        <hr class="trans--grow hr2">
+        <div class="marcos">
+          <a target="_blank" href="https://fungiterra.mercadoshops.com.mx/"> <img src="Media/Redes/tienda.png"
+              style="width:50%; height:auto;" align="center"></a>
+        </div>
+
+      </div>
+      <div class="text">
+        <p>Nuestra tienda en línea está creada a partir del sitio mercado shops, donde podrás ver y comprar cualquiera
+          de los productos que tenemos para ti con todas las comodidades que ofrece mercado libre, teniendo diversas
+          opciones de pago y la característica de envíos gratis dependiendo del producto que se desee comprar.
+        </p>
+        Contáctanos para agendar tu visita y conocer términos y condiciones. </p><br><br>
+        <p align="center"><a href="https://fungiterra.mercadoshops.com.mx/" target="_blank"
+            style="background-color: #2d7032 ; border: 0; border-radius: 5px; box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); color: #fff; font-size: 14px; padding: 10px 25px;"
+            align="center">
+            Visitar tienda</a></p>
+      </div>
+    </div>
+    <br /><br />
+  <div id="DIR" class="modal-contenedor">
+    <div class="modal3" style="align-items:center;" id="mod-dir">
+      <hr>
+      </hr>
+      <h1>Directorio</h1>
+      <hr>
+      </hr>
+      <div class="tarjetasD">
+        <h2> Médico Veterinario Zootecnista</h2>
+        Victor Manuel Martínez Albarrán
+      </div>
+      <div class="tarjetasD">
+        <h2>Profesora</h2>
+        María Isabel Bárcena Velázquez
+      </div>
+      <div class="tarjetasD">
+        <h2>Biólogo y Maestro en Estrategias para el Desarrollo Agrícola Regional</h2>
+        Juan Antonio Martínez Bárcena
+      </div>
+      <div class="tarjetasD">
+        <h2>Química en Alimentos</h2>
+        María Isabel Martínez Bárcena
+      </div>
+      <div class="tarjetasD">
+        <h2>Biólogo y Maestro en Ciencias Agropecuarias </h2>
+        Victor Manuel Martínez Bárcena
+      </div>
+      <div class="tarjetasD">
+        <h2>Licenciado en Geografía</h2>
+        José Gamaliel Martínez Martínez
+      </div>
+      <div class="tarjetasD">
+        <h2>Biólogo</h2>
+        Ezequiel Martínez Martínez
+      </div>
+      <button id="closeDIR">Cerrar</button>
+    </div>
+  </div>
+
+  <script>
+    ventModal3(document.getElementById('openDIR'), document.getElementById('DIR'), document.getElementById('closeDIR'),
+      document.getElementById('mod-dir'));
+  </script>
+  <script src="JavaScript/Loader.js"></script>
+  <script src="JavaScript/jquery.slicebox.js"></script>
+  <script src="JavaScript/main.js"></script>
+  <script src="JavaScript/materialize.min.js"></script>
+  <script src="JavaScript/script.js"></script>
+
+
+</body>
+<footer>
+  <br />
+  <h2 align='center'> Contáctanos </h2>
+  </p>
+  <p align='center'>+52 (712) 173 0307 <br />
+    fungiterraventas@outlook.com</p>
+  <p align="center">
+    <div>
+      <a href="https://wa.me/5217121730307" target="_blank">
+        <img src="Media/Redes/WHSF.png" style="width:40px; height: 40px;">
+
+        <a href="https://www.facebook.com/fungiterra/?ref=page_internal" target="_blank"><img
+            src="Media/Redes/FACEF.png" style="width:40px; height: 40px;">
+
+          <a href="https://www.instagram.com/fungiterra/" target="_blank"><img src="Media/Redes/INSF.png"
+              style="width:40px; height: 40px;"></a>
+
+          <a href="https://twitter.com/fungi_terra?fbclid=IwAR3wCQYeYFTa2Aq0Pz0ACKOVJ0QudT4dIlHxO7b-loh15_LRXRZd7OhiHV0"
+            target="_blank"><img src="Media/Redes/TWF.png" style="width:40px; height: 40px;"></a>
+
+    </div>
+
+</footer>
+
+</html>
